@@ -1,0 +1,30 @@
+@font-face {
+    font-family: SofiaPro;
+    src: url(./fonts/SofiaProRegular.ttf);
+  }
+@font-face {
+    font-family: SofiaProMedium;
+    src: url(./fonts/SofiaProMedium.ttf);
+}  
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label,
+.submit-btn-improve{
+    font-family: 'SofiaPro' !important;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+h6{
+    line-height: 1;
+}
+
+label{
+    color: white !important;
+}

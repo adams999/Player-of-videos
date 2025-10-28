@@ -1,0 +1,5 @@
+#config
+#settings.json
+#player-settings.json
+node_modules
+dist

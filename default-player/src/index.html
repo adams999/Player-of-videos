@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>SimuStream Player</title>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script>
+         window.ga =
+            window.ga ||
+            function () {
+               (ga.q = ga.q || []).push(arguments);
+            };
+         ga.l = +new Date();
+         ga("create", "UA-143590146-2", "auto");
+         ga("send", "pageview");
+      </script>
+      <script></script>
+      <script
+         async
+         src="https://www.google-analytics.com/analytics.js"
+      ></script>
+      <meta property="og:type" content="website" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta charset="utf-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="favicon/apple-touch-icon.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="favicon/favicon-32x32.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="favicon/favicon-16x16.png"
+      />
+      <link rel="manifest" href="favicon//site.webmanifest" />
+      <meta name="msapplication-TileColor" content="#da532c" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+         crossorigin="anonymous"
+      />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <link
+         href="https://fonts.googleapis.com/css?family=Cabin"
+         rel="stylesheet"
+      />
+
+      <!-- @css simu -->
+      <link rel="stylesheet" href="../../lib/src/css/style.css" />
+      <link rel="stylesheet" href="../../lib/src/css/fonts.css" />
+      <link rel="stylesheet" href="../../lib/src/css/price-plans.css" />
+      <link rel="stylesheet" href="../../lib/src/css/scrollbar.css" />
+      <!-- @end-css simu -->
+
+      <script src="https://js.stripe.com/v3/"></script>
+
+      <!-- Split SDK loaded via CDN. -->
+		<script src="//cdn.split.io/sdk/split-10.15.8.min.js"></script>
+   </head>
+
+   <body>
+      <div class="player-wrapper" id="player-wrapper">
+         <iframe
+            width="100%"
+            height="100%"
+            id="player-iframe"
+            frameborder="0"
+         ></iframe>
+      </div>
+      <div id="productDisplayContainer" class="productDisplayContainer"></div>
+
+      <script src="https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.11/lodash.min.js"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script
+         async
+         defer
+         crossorigin="anonymous"
+         src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=381499255615684&autoLogAppEvents=1"
+      ></script>
+
+      <!-- @js vendor -->
+      <script src="../node_modules/moment/moment.js"></script>
+      <!-- @end-js vendor -->
+
+      <!-- @js simu -->
+      <script src="../../lib/src/simustream.js"></script>
+      <script src="../../lib/src/analytics.js"></script>
+      <script src="../../lib/src/products-display.js"></script>
+      <script src="../../lib/src/payment.js"></script>
+<<<<<<< HEAD
+=======
+      <script src="../../lib/src/paymentProduct.js"></script>
+>>>>>>> b1cbc4a199b3378a3460f60aab195294bce1c2a4
+      <script src="simu-player.js"></script>
+      <!-- @end-js simu -->
+   </body>
+</html>
